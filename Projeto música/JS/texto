@@ -1,0 +1,8 @@
+var escolha = Numero escolhido
+var soma1 = 5
+var soma2 = 10
+var soma3 = 2
+var menos = escolha
+
+var somaGeral = escolha+soma1+soma2+soma3;
+var final = somaGeral - escolha
