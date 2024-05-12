@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com Java Script</title>
+    
+    <style>
+        body{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Meus testes com Java Script</h1>
+
+    <button type="submit" >Click aqui </button>
+
+
+    <br><br><br>
+
+    <div id="teste" onmousemove="apareceTexto()" onmouseout="viraRosa()" onmouseover="viraVermelho()"  style="margin: auto auto; width: 80%; height: 200px; background-color: blue;">
+
+    </div>
+    <p id="textoteste"></p>
+
+    <input onfocus="limpaTexto()" type="text" name="texto" id="itexto" style="padding: 80px; font-size: 40px;" placeholder="Deixe seu comentário" value="Eu gostaria de...">
+    
+    <script src="acoes.js"></script>
+</body>
+</html>
