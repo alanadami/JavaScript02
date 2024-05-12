@@ -1,4 +1,12 @@
 
+
+function chamaFoto(){
+    let foto = document.getElementById("minhafoto");
+    foto.style.display = "block"
+}
+
+
+
 function mensagem(){
         alert("Você ganhou a primeira mensagem");
 }
@@ -13,3 +21,14 @@ function noDom(){
     let lugarTexto = document.getElementById("itexto").innerText = "Bem vindo ao jogo "+nome+", lhe desejo boa sorte."    
 }
 
+function corBody(){
+    let body = document.getElementById("corpo");
+    body.style.backgroundColor = "grey"
+}
+
+function duploClick(){
+    let div = document.getElementById("cordiv")
+    div.style.border= "4px solid blue"
+    div.style.width= "80%"
+   
+}

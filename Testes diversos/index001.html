@@ -6,15 +6,21 @@
     <title>Desafio das Mensagens</title>
     <link rel="stylesheet" href="style001.css">
 </head>
-<body>
-    <div>
+<body id="corpo">
+    <div id="cordiv">
     <h1>Desafio das mensagens</h1>
     <p id="itexto"></p>
 
-    <button id="msg01" onclick="mensagem()" type="submit">Mensagem 01</button>
-    <button id="msg02" onclick="qualNome()" type="submit">Mensagem 02</button>
-    <button id="msg03" onclick="noDom()" type="submit">Mensagem 03</button>
+    <button id="msg01" onclick="mensagem()" type="submit">Msg no prompet</button>
+    <button id="msg02" onclick="qualNome()" type="submit">Msg de boas vindas</button>
+    <button id="msg03" onclick="noDom()" type="submit">Boas vindas no HTML</button>
+    <button id="msg04" onclick="corBody()" type="submit">Muda a cor de fundo</button>
+    <button id="msg05" onclick="chamaFoto()" type="submit">Clique para ver minha foto</button>
+    <button id="msg06" ondblclick="duploClick()" type="submit">Dê um click duplo</button>
 </div>
+<h1 id="textoembaixo"></h1>
+
+<br><img id="minhafoto" src="../img/fotominha.jpg" alt="">
 
     <script src="script001.js"></script>
 </body>
