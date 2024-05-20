@@ -1,5 +1,10 @@
 
 
+
+let dia = document.write(Date());
+
+alert(dia)
+
 function verificaCor(){
 
     let cor = document.getElementById("cor").value;
