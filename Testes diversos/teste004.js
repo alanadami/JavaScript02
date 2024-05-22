@@ -1,5 +1,6 @@
 
-
+let dia = getDay()
+alert(dia)
 
 
 
