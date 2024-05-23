@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade de Notas Escolares</title>
+    <link rel="stylesheet" href="notasgpt.css">
+</head>
+<body>
+    <header>
+    <h1>Grade de Notas Escolares</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Aluno</th>
+                <th>Nota 1º Tri</th>
+                <th>Nota 2º Tri</th>
+                <th>Nota 3º Tri</th>
+                <th>Média</th>
+                <th>Nota REC</th>
+                <th>Nota ExF</th>
+                <th>Aprovado/Reprovado</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="nomealuno" contenteditable="true"></td>
+                <td id="nota1" contenteditable="true"></td>
+                <td id="nota2" contenteditable="true"></td>
+                <td id="nota3" contenteditable="true"></td>
+                <td id="media" contenteditable="false"></td>
+                <td id="notarec" contenteditable="true"></td>
+                <td id="notaexame" contenteditable="true"></td>
+                <td id="status" contenteditable="false"></td>
+                <td><button onclick="media()" type="submit">Calcular</button></td>
+            </tr>
+            <tr>
+                <td id="nomealuno" contenteditable="true"></td>
+                <td id="nota1" contenteditable="true"></td>
+                <td id="nota2" contenteditable="true"></td>
+                <td id="nota3" contenteditable="true"></td>
+                <td id="media" contenteditable="false"></td>
+                <td id="notarec" contenteditable="true"></td>
+                <td id="notaexame" contenteditable="true"></td>
+                <td id="status" contenteditable="false"></td>
+                <td><button onclick="media()" type="submit">Calcular</button></td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+    <script src="notasgpt.js"></script>
+</body>
+</html>

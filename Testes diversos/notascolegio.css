@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    
+    background-color: grey;    
+}
+
+header{
+    background-color: rgba(68, 68, 253, 0.822);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header > div > h1{
+    text-align: center;
+    
+}
+
+main{
+    width: 80vw;
+        display: block;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 3px;
+    
+}
+
+
+section > div{
+    text-align: center;
+    
+}
+
+section > div > input{
+    width: 70px;
+    height: 25px;
+}
+
+
+
+div.aluno{
+    width: 300px;
+}
+
+input#ialuno{
+    width: 100%;
+}
+
+div.tri01{
+    width: 70px;
+}
+
+div.tri02{
+    width: 70px;
+}
+
+div.tri03{
+    width: 70px;
+    
+}
+
+div.media{
+    width: 70px;
+    
+    
+}
+
+div.rec{
+
+    width: 70px;
+    
+}
+
+div.rec > input{
+    width: 70px;
+}
+
+div.exame{
+    width: 70px;
+}
+
+
+div.aprovado{
+    width: 150px;
+ 
+}
+
+div.aprovado > input{
+    width: 150px;
+}

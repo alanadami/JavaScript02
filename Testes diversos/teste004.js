@@ -1,14 +1,75 @@
 
-let dia = getDay()
-alert(dia)
 
+
+
+/*
+
+function obterDiaDaSemana() {
+    const diasDaSemana = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+    const dataAtual = new Date();
+    const diaDaSemana = dataAtual.getDay();
+    return diasDaSemana[diaDaSemana];
+  }
+  
+  console.log(obterDiaDaSemana()); // Irá imprimir o dia da semana atual
+  
+
+
+
+// forma de arredondar números
+function parImpar(){
+    let numeroAleatorio = Math.random()
+    
+    let multiplicado = numeroAleatorio * 10
+
+    let arredondado = Math.floor(multiplicado);
+
+    alert(arredondado)
+}
+
+Math.random()
+
+Math.floor()
+
+
+
+
+//função para chamar os dias da semana, mas não deu certo, pois aparece o dia do mês.
+
+const dia = new Date().getDay()
+
+
+switch (dia){
+    case 0:
+        console.log("Hoje é domindo!")
+        break
+
+    case 1:
+        console.log("Bom começo de semana!")
+        break
+    
+    case 2:
+        console.log("Hoje é terça!")
+        break
+    
+    case 3:
+        console.log("Chemaos ao meio da semana!")
+        break
+
+    case 4:
+        console.log("Quintou!")
+        break
+
+    case 5:
+        console.log("Até que enfim!")
+}
 
 
 /*
 // Uso do for para montar uma tabuada (Não entendi)
 for (let i = 1; i <= 10; i++) {
     for (let j = 1; j <= 10; j++) {
-      const resultado = i * j
+      const resultado = i * j 
       console.log(i + ' x ' + j + ' = ' + resultado)
     }
   }
