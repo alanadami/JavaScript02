@@ -18,9 +18,10 @@ function media(){
         document.getElementById("status").style.color= "white"
     }
 
+    //nota da recuperação
     let notarec = parseInt(document.getElementById("notarec").innerHTML);
     
-    if (notarec >= 7 ){
+    if (notarec >= 7 || " " ){
         document.getElementById("status").innerHTML = "APROVADO"
         document.getElementById("status").style.backgroundColor= "blue"
         document.getElementById("status").style.color= "white"
@@ -30,11 +31,12 @@ function media(){
         document.getElementById("status").style.color= "white"
     }
 
+    //nota do exame final
     let notaexame = parseInt(document.getElementById("notaexame").innerHTML);
     let notafinal = notaexame+notarec;
     let notafinal2 = notafinal/2
         
-    if (notafinal2 >=5){
+    if (notafinal2 >=5 ||" " ){
         document.getElementById("status").innerHTML = "APROVADO"
         document.getElementById("status").style.backgroundColor= "blue"
         document.getElementById("status").style.color= "white"
@@ -46,7 +48,9 @@ function media(){
 }
 
 
-
+function outroAluno(){
+    
+}
 
 
 
