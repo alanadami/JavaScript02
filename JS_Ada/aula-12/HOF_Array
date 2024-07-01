@@ -1,0 +1,45 @@
+//Array.every() : verificar se todos os elementos do array seguem uma determinada condição retornada pela função.
+
+let numeros = [2, 34, 90, 60, 40, 84]
+
+let numerosPositivos = numeros.every((elementos) => elementos % 2);
+
+console.log(numerosPositivos);
+
+const pessoa = [
+    {
+        nome: "Pessoa1",
+        idade: 12,
+        sexo: "masculino"
+    },
+    {
+        nome: "Pessoa2",
+        idade: 34,
+        sexo: "feminino"
+    },
+    {
+        nome: "Pessoa3",
+        idade: 56,
+        sexo: "masculino"
+    },
+    {
+        nome: "Pessoa4",
+        idade: 30,
+        sexo: "feminino"
+    },
+]
+console.clear();
+const maiorDeIdade= pessoa.every((pessoa) => pessoa.idade >= 18);
+console.log(maiorDeIdade);
+console.clear();
+
+// SOME
+// array.some(): verifica se algum elemento do array torna verdadeira uma determinada condição retornada pela função.
+
+const alguemMenor =  pessoa.some((pessoa) => pessoa.idade < 12 );
+
+console.log(alguemMenor);
+
+const feminino = pessoa.map((pessoa) => pessoa.sexo === "feminino");
+console.log(feminino);
+
