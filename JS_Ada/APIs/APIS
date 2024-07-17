@@ -1,0 +1,18 @@
+Olhar o repositório público do github com indicação de várias APIs
+
+https://github.com/public-apis/public-apis?tab=readme-ov-file#index
+
+Programas que rodam APIs:
+
+imsomnia - Indicação de uso
+    https://insomnia.rest/ 
+
+postment
+    https://www.postman.com/downloads/
+
+
+// Ver no MDN sobre APIs do JS
+
+No browser tem API nativas:
+    Notification
+    Web Storage API

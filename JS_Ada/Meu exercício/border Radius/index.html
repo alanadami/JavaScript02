@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Border Radius</h1>
+        <hr>
+    </header>
+  
+    <div class="container">
+        
+            <form id="values">
+                <label for="itop">Top-Left</label>
+                <input type="number" class="inputvalue" id="itop" placeholder="Digite um valor" value="0">
+                
+                
+                <label for="iright">Top-Right</label>
+                <input type="number" class="inputvalue" name="right" id="iright" placeholder="Digite um valor" value="0">
+              
+
+                <label for="ibutton">bottom-Right</label>
+                <input type="number" class="inputvalue" name="bottom" id="ibutton" placeholder="Digite um valor" value="0">
+               
+
+                <label for="ileft">bottom-Left</label>
+                <input type="number" class="inputvalue" name="left" id="ileft" placeholder="Digite um valor" value="0">
+                <br>
+                <button id="iadicionar">Adicionar</button>
+                <button onclick="clearFunction()" id="ilimpar">Limpar</button>
+            </form>
+            <div class="box" id="#box">
+                <h3>Estilize as <br> bordas da caixa!</h3>
+            </div>
+             
+        </div>
+        <hr>
+        <div class="copiar">  
+            <input type="text" id="csscode" placeholder="Seu código CSS aparecerá aqui!">
+            <br>
+            <button onclick="copyFunction()" id="botaocopiar">Copiar</button>
+        </div>  
+    <script src="style.js"></script>
+</body>
+</html>

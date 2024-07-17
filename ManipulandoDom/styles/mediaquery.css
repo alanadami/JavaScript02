@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    
+    header > nav > a{
+        border-radius: 20px;
+        font-size: 24px;
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .cabeca > h1{
+        margin-top: 50px;
+        font-family: var(--fonte-destaque);
+        font-size: 4em;
+        
+    }
+    .cabeca > hr{
+        height: 4px;
+        background-color: white;
+    
+    }
+    .cabeca > h2{
+        margin-top: 50px;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    .cabeca > button{
+        font-size: 1.5em;
+        padding: 15px 40px ;
+        border-radius: 30px;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        
+    }
+    .frase{
+        height: 150px;
+    }
+
+    .frase > h2{
+        font-size: 2em;
+    }
+    .texto{
+        font-size: 1.3em;
+        max-width: 900px;
+        height: 220px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px; 
+        justify-items: center;
+    }
+
+    .quartos, .animais, .atividades{
+        width: 90%;
+
+    }
+
+    .convite{
+        text-align: center;
+    }
+
+    .convite > button{
+        margin-right: 0px;
+    }
+
+    .convite > h2{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .mapa > iframe{
+        width: 100vw;
+        height: 400px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 20px;
+    
+    }
+
+
+}

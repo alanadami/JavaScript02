@@ -1,0 +1,393 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+:root{
+    --cor1: #1E2601;
+    --cor2: #4D5922;
+    --cor3: #657332;
+    --cor4: #D8D9B4;
+    --cor5: #BFBAAA;
+    
+
+    --fonte-padrao: 'Barlow', cursive;
+    --fonte-destaque: 'Kanit', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+
+header{
+    background-image: url(../img/capa_android.jpg);
+    /*background-image: url(../img/capa_rancho.jpg);*/
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+header > img{
+    width: 160px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 30px;
+   
+    
+}
+
+header > nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 30px;
+    align-items: center;
+    margin-top: -80px;
+    text-align: center;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 3px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+}
+
+header > nav > a:hover{
+    cursor: pointer;
+    background-color: var(--cor2);
+
+}
+
+.fundofrase{
+    background-color: whitesmoke;
+}
+
+.cabeca{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.cabeca > h1{
+    font-family: var(--fonte-destaque);
+    font-size: 2.8em;
+    
+}
+.cabeca > hr{
+    width: 85vw;
+    margin: auto auto;
+}
+.cabeca > h2{
+    margin-top: 20px;
+    font-family: var(--fonte-padrao);
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.cabeca > button{
+    margin-top: 20px;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.cabeca > button:hover{
+    background-color: rgb(248, 101, 47);
+    cursor: pointer;
+}
+
+
+
+.corpo > h2{
+    font-family: var(--fonte-padrao);
+
+}
+
+.frase{
+    height: 100px;
+    background-color: var(--cor3);
+    color: wheat;
+    font-family: var(--fonte-padrao);
+    font-style: italic;
+    text-align: center;
+    align-content: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.texto{
+    color: black;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+    max-width: 600px;
+    height: 220px;
+    align-content: center;
+    justify-content: center;
+    margin: auto auto;
+  
+}
+
+/* Inicio dos Cards*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+}
+/* QUARTOS*/
+.quartos{
+    margin-top: 30px;
+    width: 330px;
+    height: 400px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    background-image: url(../img/quarto_h600.jpg);
+    background-size: cover;
+    color: wheat;
+    text-align: center;
+    align-content: center;    
+}
+
+
+
+.quartos > h2, h3{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: var(--fonte-padrao);
+
+   
+}
+
+.quartos > h3{
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.quartos > button{
+    margin-top: 30px;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+    
+
+}
+
+.quartos > button:hover{
+    background-color: rgb(248, 101, 47);
+    cursor: pointer;
+}
+
+/* ANIMAIS*/
+
+.animais{
+    margin-top: 30px;
+    width: 330px;
+    height: 400px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    background-image: url(../img/animais002A.jpg);
+    background-size: cover;
+    color: wheat;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.animais > h2, h3{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    
+    
+}
+.animais > h3{
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.animais > button{
+    margin-top: 30px;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+
+}
+
+.animais > button:hover{
+    background-color: rgb(248, 101, 47);
+    cursor: pointer;
+}
+
+/* ATIVIDADES*/
+
+.atividades{
+    margin-top: 30px;
+    width: 330px;
+    height: 400px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    background-image: url(../img/atividades002.jpg);
+    background-size: cover;
+    color: wheat;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.atividades > h2, h3{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    
+    
+}
+.atividades > h3{
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.atividades > button{
+    margin-top: 30px;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+    
+
+}
+
+.atividades > button:hover{
+    background-color: rgb(248, 101, 47);
+    cursor: pointer;
+}
+
+/*section convite*/
+
+.convite{
+    background-image: url(../img/funto003.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 350px;
+    color: white;
+    margin-top: 30px;
+    text-align: right;
+    padding: 10px;
+    line-height: 1.8em;
+
+}
+.convite > h2{
+    padding-top: 90px;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-left: 50px;
+    color: rgb(255, 248, 248);
+    
+}
+
+.convite > button{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.convite > button:hover{
+    background-color: rgb(248, 101, 47);
+    cursor: pointer;
+}
+
+.mapa{
+    margin-top: 50px;
+    text-align: center;
+       
+}
+
+.mapa > iframe{
+    width: 100vw;
+ 
+}
+
+
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+footer > p{
+    margin-left: 32%;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+footer > P > a{
+    text-decoration: none;
+    
+}
+
+footer > h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fonte-padrao);
+    font-style: italic;
+}
+
+footer > a> i{
+    color: white;
+}
+
+.cor{
+    color: white;
+}
