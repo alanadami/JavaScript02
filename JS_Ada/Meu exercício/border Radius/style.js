@@ -26,12 +26,10 @@ function copyFunction(){
 function clearFunction(){
         const clear = document.querySelectorAll(".inputvalue");
         clear.forEach(input => {
-            input.value = "";
+            input.value = undefined;
         });
         
        
 }
 
 
-console.log(copyFunction());
-console.log(clearFunction());
