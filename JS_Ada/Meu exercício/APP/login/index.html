@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycle App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recycle App</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button id="btn-login-catador">Login como Catador</button>
+                <button id="btn-login-user">Login como Usuário</button>
+                <button id="btn-register">Cadastrar</button>
+            </form>
+        </section>
+        <section id="register" style="display: none;">
+            <h2>Cadastrar</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="username-register">Username:</label>
+                <input type="text" id="username-register" name="username-register"><br><br>
+                <label for="password-register">Password:</label>
+                <input type="password" id="password-register" name="password-register"><br><br>
+                <button id="btn-register-submit">Cadastrar</button>
+            </form>
+        </section>
+        <section id="catador" style="display: none;">
+            <h2>Catador</h2>
+            <ul id="users-list"></ul>
+        </section>
+        <section id="user" style="display: none;">
+            <h2>Usuário</h2>
+            <form>
+                <label for="amount">Quantidade de lixo:</label>
+                <input type="number" id="amount" name="amount"><br><br>
+                <button id="btn-submit-amount">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
