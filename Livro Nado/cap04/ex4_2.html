@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="https://cdn.icon-icons.com/icons2/2968/PNG/512/weight_scale_bascule_weighing_machine_icon_186826.png" width="70%">
+        </div>
+        <div class="calculadora">
+            <h1>Programa Cálculo do Peso Ideal</h1>
+            <hr>
+
+            <form>
+                <p>Nome:
+                    <input type="text" name="" id="inNome">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="sexo" id="inMasculino" required>Masculino
+                    <input type="radio" name="sexo" id="inFeminino" required>Feminino
+                </p>
+                <p>Altura:
+                    <input type="number" id="inAltura" min="0" step="0.01">
+                </p>
+                <input type="submit" class="botao" value="Calcular Peso">
+                <input type="reset"  value="Limpar">
+            </form>
+            <h4></h4>
+        </div>
+
+
+
+        
+    </div>
+
+    <script src="js/ex4_2.js"></script>
+</body>
+</html>

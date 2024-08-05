@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const dias = Number(prompt("Informe os dias de viagens:"))
+        const horas = Number(prompt("Informe as horas de viagens:"))
+        const totalHoras = (dias * 24) + horas
+        const totalDias = totalHoras / 24
+
+        alert("A viagem terá uma duração de " + totalHoras.toFixed(2) + " horas e um total de " + totalDias.toFixed(2) + " dias.");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurante JS</h1>
+        <form>
+        <p>Buffet por Quilo R$:
+        <input type="number" id="inQuilo" min="0" step="0.01" required>
+        </p>
+        <p>Consumo do Cliente (gr):
+        <input type="number" id="inConsumo" min="0" required>
+        </p>
+        <input type="submit" value="Calcular Preço">
+        </form>
+        <h3></h3>
+    </div>
+
+    <script src="js/ex2_4.js"></script>
+
+</body>
+</html>
